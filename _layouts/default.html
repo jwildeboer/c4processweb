@@ -2,8 +2,6 @@
 <html lang="{{ site.lang | default: "en-UK" }}">
   <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -18,9 +16,9 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer" style="text-align: center; background-color: #EEE; padding-bottom: 1rem; padding-top: 1rem;">
-        <span class="site-footer-owner"><a href="https://codeberg.org/jwildeboer/fedihostingsource">Repository</a> &#183; <a href="/about/">Impressum/About</a> &#183; <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">{{ site.data.ui-text[site.locale].feed_label | default: "Atom Feed" }}</a></span>
-        <span class="site-footer-owner"><a href="/">https://fedihosting.org</a> is offered to you by <a href="https://codeberg.org/jwildeboer">Jan Wildeboer</a></span>
-        <span class="site-footer-credits">This page is proudly hosted by <a href="https://codeberg.page"><img width="20" height="20" src="/images/codeberg-logo_icon_blue.svg" style="vertical-align: sub;"> Codeberg Pages</a>.</span>
+        <span class="site-footer-owner"><a href="https://codeberg.org/jwildeboer/c4processweb">Repository</a> &#183; <a href="/about/">Impressum/About</a> &#183; <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">{{ site.data.ui-text[site.locale].feed_label | default: "Atom Feed" }}</a></span>
+        <span class="site-footer-owner"><a href="/">https://c4process.org</a> is offered to you by <a href="https://codeberg.org/jwildeboer">Jan Wildeboer</a></span>
+        <span class="site-footer-credits">This page is hosted by GitHub.</span>
       </footer>
     </main>
   </body>
