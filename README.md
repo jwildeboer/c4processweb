@@ -1,6 +1,6 @@
 # this repository
 
-This repository, https://codeberg.org/jwildeboer/c4processweb contains the sources for the https://c4process.org website.
+This repository, https://codeberg.org/jwildeboer/c4processweb contains the sources for the https://c4process.org website. Feel free to send us Pull Requests, open issues etc.
 
 # c4process
 
