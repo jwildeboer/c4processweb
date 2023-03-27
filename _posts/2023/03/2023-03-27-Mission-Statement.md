@@ -4,9 +4,9 @@ title: A Kind Of Mission Statement
 category: blog
 ---
 
-## 2023-03-27
+### 2023-03-27
 
-### Why does this site exist?
+## Why does this site exist?
 
 To promote the [Collective Code Construction Contract](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions.
 
@@ -25,3 +25,5 @@ C4 has it's rather unique way of contextualising the work in an Open Source/Free
 - **Contract** Your project offers a public contract. It is your mission statement. It describes what offer you make to others in general terms and should be free of any technical details.
 - **Promises** are the interface of your procject/contract to the real world. The things that are well defined in what they expect/accept and deliver as result. Also known as the API (Application Programming Interface) and/or ABI (Application Binary Interface). Promises have names for eternity. Their intent never changes. They are stable and reliable. Promises can get deprecated over time or replaced by new promises with ALWAYS new names.
 - **Problems** are the way to ask for solutions. They are as small as possible imn scope. Not philosophical. Focus on the real problem. Solve it pragmatically. Move on.
+
+Notice how this abstract approach already eliminates a lot of potential for fundamental discussions? How it forces you to focus on immediate problems and solutions instead of getting lost in philosophical meta-discussions that lead typically to more problems and disagreement? Well. Welcome to the Ce4 way of thinking.
