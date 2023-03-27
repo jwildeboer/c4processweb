@@ -1,7 +1,7 @@
 title: C4process
 url: https://c4process.org
 author: Jan Wildeboer
-description: C4 Process &mdash; Collective Code Construction Contract
+description: The Collective Code Construction Contract explained in theory and practice
 plugins:
 - jekyll-feed
 - jekyll-paginate
