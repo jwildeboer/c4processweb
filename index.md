@@ -3,9 +3,13 @@ layout: default
 title: C4 Process Homepage
 ---
 
-### 2023-03-26
-
 Welcome to **C4process**. A website dedicated to promote and discuss the [Collective Code Construction Contract](https://rfc.zeromq.org/spec/42/).
+
+## Why does this site exist?
+
+To promote the [Collective Code Construction Contract](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions.
+
+[Read more](/blog/2023-03-27/)
 
 ### C4
 
