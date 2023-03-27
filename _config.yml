@@ -1,19 +1,19 @@
 title: C4process
 url: https://c4process.org
 author: Jan Wildeboer
-description: Collective Code Construction Contract
+description: C4 Process &mdash; Collective Code Construction Contract
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
 - jekyll-feed
 - jekyll-paginate
 
-# 2 weeks on the start page
-paginate: 14
+# Entries per blogroll list page
+paginate: 5
 paginate_path: "/blog/:num/"
 excerpt_separator: <!--more-->
 
-# So we get /tagesberichte/ISODATE, /wochenberichte/ISODATE
+# So we get /blog/ISODATE, /doc/ISODATE etc
 permalink: :categories/:year-:month-:day/
 
 # Make sure those pages get build too
