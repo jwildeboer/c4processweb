@@ -20,11 +20,13 @@ So we will go through the **Lessons Learned** that led to C4. Take it apart, exp
 
 ## Some definitions
 
-C4 has it's rather unique way of contextualising the work in an Open Source/Free Software project. It is helpful to memorise some of these basic terms, that we will explre in more detail in future posts and articles.
+C4 has it's rather unique way of contextualising the work in an Open Source/Free Software project. It is helpful to memorise some of these basic terms, that we will explore in more detail in future posts and articles.
 
 - **Contract** Your project offers a public contract. It is your mission statement. It describes what offer you make to others in general terms and should be free of any technical details.
 - **Promises** are the interface of your procject/contract to the real world. The things that are well defined in what they expect/accept and deliver as result. Also known as the API (Application Programming Interface) and/or ABI (Application Binary Interface). Promises have names for eternity. Their intent never changes. They are stable and reliable. Promises can get deprecated over time or replaced by new promises with ALWAYS new names.
 - **Problems** are the way to ask for solutions. They are as small as possible imn scope. Not philosophical. Focus on the real problem. Solve it pragmatically. Move on.
+
+## Welcome To The Real C4
 
 Notice how this abstract approach already eliminates a lot of potential for fundamental discussions? How it forces you to focus on immediate problems and solutions on a small scale, iteratively, guided by bigger principles (the Contract) instead of getting lost in philosophical meta-discussions that lead typically to more problems and disagreement but never to solutions? 
 
