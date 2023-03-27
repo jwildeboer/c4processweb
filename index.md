@@ -13,11 +13,11 @@ To promote the [Collective Code Construction Contract](/C4/). To research its us
 
 ### C4
 
-The Collective Code Construction Contract (C4) is an evolution of the github.com Fork + Pull Model, aimed at providing an optimal collaboration model for free software projects.
+The [Collective Code Construction Contract (C4)](/c4/) is an evolution of the github.com Fork + Pull Model, aimed at providing an optimal collaboration model for free software projects.
 
 ### License &mdash; GPLv3 or later
 
-The content of this website and the C4 process RFC are licensed under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+The content of this website and the [C4 process RFC](/C4/) are licensed under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
 ### Pull requests, bugs, feature requests
 
@@ -30,3 +30,7 @@ You can also send us an e-mail at info AT c4process DOT org and ask to get subsc
 ### Blog
 
 Got to our [blogroll](/blog/index.html)
+
+### Internet of People
+
+This site is by people for people. To share, learn and implement solutions. It has no trackers, no cookies, no ads. It's a project that focuses on solutions, not problems.
