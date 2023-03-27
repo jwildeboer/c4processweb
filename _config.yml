@@ -1,10 +1,27 @@
 title: C4process
 url: https://c4process.org
+author: Jan Wildeboer
 description: Collective Code Construction Contract
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
 - jekyll-feed
-keep_files: [ .domains, LICENSE, CNAME, .git, .gitignore ]
-# exclude: [ domains ]
+- jekyll-paginate
+
+# 2 weeks on the start page
+paginate: 14
+paginate_path: "/blog/:num/"
+excerpt_separator: <!--more-->
+
+# So we get /tagesberichte/ISODATE, /wochenberichte/ISODATE
+permalink: :categories/:year-:month-:day/
+
+# Make sure those pages get build too
 include: [ _pages ]
+
+# Atom Feed
+feed:
+  excerpt_only: true
+
+# Important build stuff
+keep_files: [ .domains, LICENSE, CNAME, .git, .gitignore ]

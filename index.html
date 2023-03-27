@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<p>Welcome to <strong>C4process</strong>. A website dedicated to promote and discuss the <a href="https://rfc.zeromq.org/spec/42/">Collective Code Construction Contract</a>.</p>
+
+<h3 id="c4">C4</h3>
+
+<p>The Collective Code Construction Contract (C4) is an evolution of the github.com Fork + Pull Model, aimed at providing an optimal collaboration model for free software projects.</p>
+
+<h3 id="license--gplv3-or-later">License — GPLv3 or later</h3>
+
+<p>The content of this website and the C4 process RFC are licensed under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.</p>
+
+<h3 id="pull-requests-bugs-feature-requests">Pull requests, bugs, feature requests</h3>
+
+<p>Go to our <a href="https://codeberg.org/jwildeboer/c4processweb">repository</a> to file issues, pull requests etc.</p>
+
+<h3 id="discussions">Discussions</h3>
+
+<p>You can also send us an e-mail at info AT c4process DOT org and ask to get subscribed to our simple mailing list.</p>
+
+{%- for post in paginator.posts -%}
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="content">
+        {{ post.excerpt | strip_html | normalize_whitespace | truncate: 300 | escape }}
+      </div>
+      <hr />
+{%- endfor -%}
+{%- if paginator.total_pages > 1 -%}
+      <div class="pagination" style="text-align: center; display: block">
+{%- if paginator.previous_page -%}
+        <a class="btn" style="background-color: #155799" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;</a>
+{%- else -%}
+        <span class="btn" style="background-color: #CCCCCC" >&larr;</span>
+{%- endif -%}
+{%- for page in (1..paginator.total_pages) -%}
+  {%- if page == paginator.page -%}
+        <span class="btn" style="background-color: #AAAAAA"><u>{{ page }}</u></span>
+  {%- elsif page == 1 -%}
+        <a class="btn" style="background-color: #155799" href="{{ '/' | relative_url }}">{{ page }}</a>
+  {%- else -%}
+        <a class="btn" style="background-color: #155799" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+  {%- endif -%}
+{%- endfor -%}
+{%- if paginator.next_page -%}
+        <a class="btn" style="background-color: #155799" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&rarr;</a>
+{%- else -%}
+        <span class="btn" style="background-color: #CCCCCC">&rarr;</span>
+{%- endif -%}
+      </div>
+{%- endif -%}
