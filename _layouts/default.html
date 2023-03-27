@@ -15,9 +15,12 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="/" class="btn">HOME</a>
       <a href="/blog/" class="btn">Blog</a>
+      <a href="/C4/" class="btn">C4</a>
     </header>
     <main id="content" class="main-content" role="main">
+
       {{ content }}
+
       <footer class="site-footer" style="text-align: center; background-color: #EEE; padding-bottom: 1rem; padding-top: 1rem;">
         <span class="site-footer-owner"><a href="https://codeberg.org/jwildeboer/c4processweb">Repository</a> &#183; <a href="/about/">Impressum/About</a> &#183; <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">{{ site.data.ui-text[site.locale].feed_label | default: "Atom Feed" }}</a></span>
         <span class="site-footer-owner"><a href="/">https://c4process.org</a> is offered to you by <a href="https://codeberg.org/jwildeboer">Jan Wildeboer</a></span>
