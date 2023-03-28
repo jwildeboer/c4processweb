@@ -3,7 +3,7 @@ layout: default
 title: C4 Process Homepage
 ---
 
-Welcome to **C4process**. A website dedicated to promote and discuss the [Collective Code Construction Contract](https://rfc.zeromq.org/spec/42/).
+Welcome to **C4process**. A website dedicated to promote and discuss the [Collective Code Construction Contract (C4)](https://rfc.zeromq.org/spec/42/).
 
 ## Why does this site exist?
 
