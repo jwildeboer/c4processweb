@@ -8,7 +8,7 @@ category: blog
 
 ## Why does this site exist?
 
-To promote the [Collective Code Construction Contract](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions.
+To promote the [Collective Code Construction Contract (C4)](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions. To share experiences made with anyone who might be interested.
 
 C4 is the **result** of years of experience on how Open Source/Free Software communities work but also fail. It has **learned** from these experiences and draws some surprising conclusions on how to facilitate a goal-oriented, focused and inspiring way of working together.
 
