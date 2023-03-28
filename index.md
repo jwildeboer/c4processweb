@@ -7,13 +7,13 @@ Welcome to **C4process**. A website dedicated to promote and discuss the [Collec
 
 ## Why does this site exist?
 
-To promote the [Collective Code Construction Contract](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions.
+To promote the [Collective Code Construction Contract (C4)](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions.
 
 [Read more](/blog/2023-03-27/)
 
 ### C4
 
-The [Collective Code Construction Contract (C4)](/c4/) is an evolution of the github.com Fork + Pull Model, aimed at providing an optimal collaboration model for free software projects.
+The [Collective Code Construction Contract (C4)](/c4/) is an evolution of the github.com Fork + Pull Model, aimed at providing an optimal collaboration model for free software projects. This site explores its feasability also beyond that.
 
 ### License &mdash; GPLv3 or later
 
@@ -21,7 +21,7 @@ The content of this website and the [C4 process RFC](/C4/) are licensed under th
 
 ### Pull requests, bugs, feature requests
 
-Go to our [repository](https://codeberg.org/jwildeboer/c4processweb) to file issues, pull requests etc.
+Go to our [repository at codeberg](https://codeberg.org/jwildeboer/c4processweb) to file issues, pull requests etc.
 
 ### Discussions
 
@@ -29,7 +29,7 @@ You can also send us an e-mail at info AT c4process DOT org and ask to get subsc
 
 ### Blog
 
-Got to our [blogroll](/blog/index.html)
+Visit our [blogroll](/blog/index.html) ad again &mdash; feel free to file a pull request with new blog entries. This website is a simple [Jekyll](https://jekyllrb.com) static pages setup, so if you kn ow [markdown](https://en.wikipedia.org/wiki/Markdown), you're ready to contribute.
 
 ### Internet of People
 
