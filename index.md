@@ -38,3 +38,5 @@ This site is by people for people. To share, learn and implement solutions. It h
 ### Who builds this site?
 
 Right now (2023-03-28) it's just me, [Jan Wildeboer](https://jan.wildeboer.net). I am an Open Source/Free Software veteran with a clear focus on positive progress in the communities that surropubnd me &mdash; be it virtual or real. My main interests are in finding pragmatic, easy to implement ways of creating communities that help to change a lot of small thing for the better. My daytme job is [Red Hat](https://www.redhat.com) EMEA Evamngelist. I am a long time member of the [United Transnational Republics](https://www.utnr.org) and work since many years on fully decentralised Identioty Ownership, which I think is needed to establish a global democracy. My superpower is patience combined with listening and learning.
+
+I am looking forward to have this website being run by a community of people from all over many places and me reducing myself to keeping it working and causing change. I am not relevant. Ideas are bigger than people and ego.
