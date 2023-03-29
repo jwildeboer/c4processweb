@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: blog
 title: A Kind Of Mission Statement
 category: blog
+#comments:
+#  host: social.wildeboer.net
+#  username: jwildeboer
+#  id: 109926960604430691 
 ---
 
 ### 2023-03-27
