@@ -22,4 +22,4 @@ feed:
   excerpt_only: true
 
 # Important build stuff
-keep_files: [ .domains, LICENSE, CNAME, .git, .gitignore ]
+keep_files: [ .domains, LICENSE, CNAME, .git, .gitignore, robots.txt ]
