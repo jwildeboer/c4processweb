@@ -2,10 +2,10 @@
 layout: blog
 title: A Kind Of Mission Statement
 category: blog
-#comments:
-#  host: social.wildeboer.net
-#  username: jwildeboer
-#  id: 109926960604430691 
+comments:
+  host: social.wildeboer.net
+  username: jwildeboer
+  id: 110097130437017399 
 ---
 
 ### 2023-03-27
