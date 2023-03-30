@@ -5,6 +5,8 @@ title: C4 Process Homepage
 
 Welcome to **C4process**. A website dedicated to promote and discuss the [Collective Code Construction Contract (C4)](https://rfc.zeromq.org/spec/42/).
 
+Not to be confused with the [C4 Model](https://c4model.com) for visualising software architecture.
+
 ## Why does this site exist?
 
 To promote the [Collective Code Construction Contract (C4)](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions.
