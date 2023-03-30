@@ -61,8 +61,8 @@
       `<div class="mastodon-comment" style="margin-left: calc(var(--mastodon-comment-indent) * ${depth})">
         <div class="author">
           <div class="comment_avatar-wrapper">
-            <div class="comment_avatar">
-              <img src="${escapeHtml(toot.account.avatar_static)}" alt="">
+            <div>
+              <img class="comment_avatar" src="${escapeHtml(toot.account.avatar_static)}" alt="">
             </div>
           </div>
           <div class="comment_author">
