@@ -29,7 +29,7 @@ You can also send us an e-mail at info AT c4process DOT org and ask to get subsc
 
 ### Blog
 
-Visit our [blogroll](/blog/index.html) ad again &mdash; feel free to file a pull request with new blog entries. This website is a simple [Jekyll](https://jekyllrb.com) static pages setup, so if you kn ow [markdown](https://en.wikipedia.org/wiki/Markdown), you're ready to contribute.
+Visit our [blogroll](/blog/index.html) and again &mdash; feel free to file a pull request with new blog entries. This website is a simple [Jekyll](https://jekyllrb.com) static pages setup, so if you kn ow [markdown](https://en.wikipedia.org/wiki/Markdown), you're ready to contribute.
 
 ### Internet of People
 

@@ -8,8 +8,6 @@ comments:
   id: 110097130437017399 
 ---
 
-### 2023-03-27
-
 ## Why does this site exist?
 
 To promote the [Collective Code Construction Contract (C4)](/C4/). To research its use in practice, not limited to Open Source/Free Software projects, but as part of an exploration to transpose the principles of C4 to other fields of community-led behaviours and actions. To share experiences made with anyone who might be interested.

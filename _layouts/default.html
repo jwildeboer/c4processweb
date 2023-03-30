@@ -23,6 +23,10 @@
 
       {{ content }}
 
+      {%- if page.comments -%}
+        {%- include comments.html -%}
+      {%- endif -%}
+
     </main>
     <footer class="site-footer">
       <span class="site-footer-owner">
