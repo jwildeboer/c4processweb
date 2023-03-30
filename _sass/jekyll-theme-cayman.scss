@@ -349,8 +349,14 @@ a {
 }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
+  clear: both;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  display: block;
+  box-sizing: border-box;
+  text-align: center; 
+  background-color: #EEE;
   border-top: solid 1px $hr-border-color;
 
   @include large {

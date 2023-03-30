@@ -1,29 +1,36 @@
 .comments {
-      clear: both;
-      width: 100%;
-      float: left;
-      margin-left: 0;
-      margin-right:0
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right:0;
+  display: block;
+  box-sizing: border-box;
 }
 
 .comment {
-    margin: 1em 0;
-  
-    &:not(:last-child) {
-      border-bottom: 1px solid $border-color;
-    }
+  clear: both;
+  margin: 1em 0;
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  &:not(:last-child) {
+     border-bottom: 1px solid $border-color;
+  }
 }
   
   .comment_avatar-wrapper {
     float: left;
     width: 100px;
     height: 100px;
+    display: block;
   }
   
   @media (min-width: 64em) {
     .comment_avatar-wrapper {
         width: 100px;
         height:100px;
+        display: block;
     }
 }
   .comment_avatar {
@@ -43,9 +50,18 @@
 
   .comment_content-wrapper {
     float: right;
-    width: calc(100% - 60px);
+    width: calc(100% - 100px);
+}
+
+  .comment_content {
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
   }
-  
+
   .comment_author {
     margin: 0;
   
@@ -62,3 +78,12 @@
     }
   }
   
+  .comment_status-wrapper {
+    margin: 0;
+    width: 100%;
+    display: block;
+  }
+
+  .comment_status {
+    margin: 0;
+  }

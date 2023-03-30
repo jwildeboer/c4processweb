@@ -26,12 +26,11 @@
       {%- if page.comments -%}
         {%- include comments.html -%}
       {%- endif -%}
-      
-      <footer class="site-footer" style="text-align: center; background-color: #EEE; padding-bottom: 1rem; padding-top: 1rem;">
+    </main>
+    <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://codeberg.org/jwildeboer/c4processweb">Repository</a> &#183; <a href="/about/">Impressum/About</a> &#183; <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">{{ site.data.ui-text[site.locale].feed_label | default: "Atom Feed" }}</a></span>
         <span class="site-footer-owner"><a href="/">https://c4process.org</a> is offered to you by <a href="https://codeberg.org/jwildeboer">Jan Wildeboer</a></span>
         <span class="site-footer-credits">This page is hosted by GitHub.</span>
-      </footer>
-    </main>
+    </footer>
   </body>
 </html>
