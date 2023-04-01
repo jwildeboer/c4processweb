@@ -4,7 +4,7 @@ title: A Kind Of Mission Statement
 category: blog
 comments:
   host: social.wildeboer.net
-  username: jwildeboer
+  user: jwildeboer
   id: 110097130437017399 
 ---
 
